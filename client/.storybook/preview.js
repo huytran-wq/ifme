@@ -1,5 +1,4 @@
 /* eslint-disable import/no-extraneous-dependencies, import/no-unresolved, import/extensions */
-import { addDecorator, addParameters } from '@storybook/react';
 import './stories.scss';
 
 export const parameters = {

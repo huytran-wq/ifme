@@ -14,9 +14,7 @@ export const Default = () => (
   </Accordion>
 );
 
-Default.story = {
-  name: 'Default size and style',
-};
+Default.storyName = 'Default size and style';
 
 Default.parameters = {
   backgrounds: { default: 'mulberry' },
@@ -28,9 +26,7 @@ export const DefaultLarge = () => (
   </Accordion>
 );
 
-DefaultLarge.story = {
-  name: 'Default style and large size',
-};
+DefaultLarge.storyName = 'Default style and large size';
 
 DefaultLarge.parameters = {
   backgrounds: { default: 'mulberry' },
@@ -42,9 +38,7 @@ export const DefaultDark = () => (
   </Accordion>
 );
 
-DefaultDark.story = {
-  name: 'Default size and dark style',
-};
+DefaultDark.storyName = 'Default size and dark style';
 
 export const LargeDark = () => (
   <Accordion id="some_id" title={title} large dark>
@@ -52,6 +46,4 @@ export const LargeDark = () => (
   </Accordion>
 );
 
-LargeDark.story = {
-  name: 'Large size and dark style',
-};
+LargeDark.storyName = 'Large size and dark style';
